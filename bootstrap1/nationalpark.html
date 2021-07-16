@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>National Geographic</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+
+<body>
+
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			<a href = "index.html" class = "navbar-brand">National Geographic</a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right">
+
+					<li class = "active"><a href = "index.html">Home</a></li>
+					<li><a href = "animals.html">Animals</a></li>
+					<li><a href = "environment.html">Environment</a></li>
+					<li class = "dropdown">
+						<a href = "traveling.html" class = "dropdown-toggle" data-toggle = "dropdown">Travel <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "nationalpark.html">National Parks</a></li>
+							<li><a href = "adventure.html">Adventure</a></li>
+							<li><a href = "familytrip.html">Family Trips</a></li>
+							</ul>
+					</li>	
+					<li><a href = "#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-lg-9">
+				<div class = "panel panel-default">
+					<div class = "panel-body">
+						<div class = "page-header">
+							<h3>Brief History of the National Parks</h3>
+							<a href = "https://www.loc.gov/collections/national-parks-maps/articles-and-essays/brief-history-of-the-national-parks/"class = "btn btn-warning">Read the rest of the article here</a></center>
+						</div>
+						<img class = "featureImg" src = "planet.jpg" width = "100%">
+						<p>Many of America's most scenic and historic places have been set aside for the use of the public as national parks. "National Parks are spacious land . . . areas essentially in their primeval condition and so outstandingly superior in beauty to average examples of their several types as to demand preservation intact and in their entirety for the enjoyment, education and inspiration of all the people for all time."1 The concept of a "national park" is an American innovation that, in part, grew out of the conservation movement that began in the nineteenth century. When Yellowstone was designated a national park in 1872, it became the first such park in the world.</p>
+
+						<p>The burgeoning of American national parks reflected contemporary intellectual, social, and economic changes that to a growing appreciation for wilderness and wildlife, a desire to escape the increasingly urban places that resulted from industrialization, and the popularization of the automobile. With increased awareness of and sensitivity toward nature came the desire to preserve some of the most spectacular landscapes and significant historical and cultural sites for the enjoyment of future generations. Americans wanted to visit these places to experience their beauty firsthand, whether they traveled by train, steamship, or, increasingly, by automobile.</p>
+
+						<p>It is no coincidence that the first national park was explored and established in the same decade that saw publication of a great variety of articles and books about nature and wilderness. Several of the writers associated with the national park movement, including Clarence Dutton, Ferdinand V. Hayden, Clarence King, Nathaniel P. Langford, John Muir, and John Wesley Powell, described the spectacular scenery of the western United States. The Appalachian Mountain Club, one of the first private conservation organizations, was founded in 1876 to protect and preserve eastern wilderness areas. The United States Geological Survey, which undertook responsibility for surveying and mapping lands in the national domain, was established as a separate bureau within the Department of the Interior in 1879.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "navbar navbar-default navbar-fixed-bottom">
+		<div class = "container">
+			<p class = "navbar-text pull-left">Site Built by Saayesha Jain</p>
+			<a href = "https://www.youtube.com/user/NationalGeographic" class = "navbar-btn btn-warning btn pull-right">Subscribe on Youtube</a>
+		</div>
+	</div>
+
+<div class = "modal fade" id = "contact" role = "dialog">
+	<div class = "modal-dialog">
+		<div class = "modal-content">
+
+			<form class = "form-horizontal">
+
+			<div class = "modal-header">
+				<h4>Contact National Geographic</h4>
+			</div>
+			<div class = "modal-body">
+			
+			<div class = "form-group">
+
+				<Label for = "contact-name" class = "col-lg-2 control-label">Name:</Label>
+				<div class = "col-lg-10">
+					<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+				</div>
+					</div>
+
+			<div class = "form-group">
+
+				<Label for = "contact-email" class = "col-lg-2 control-label">Email:</Label>
+				<div class = "col-lg-10">
+					<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+				</div>
+					</div>
+
+			<div class = "form-group">
+
+				<Label for = "contact-msg" class = "col-lg-2 control-label">Message:</Label>
+				<div class = "col-lg-10">
+				
+					<textarea class = "form-control" rows = "8"></textarea>
+
+				 </div>
+
+			</div>
+			<div class = "modal-footer">
+				<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+				<button class = "btn btn-warning" type = "submit">Send</button>
+			</div>
+		</form>
+		</div>	
+	</div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

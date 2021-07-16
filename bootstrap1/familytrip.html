@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>National Geographic</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+
+<body>
+
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			<a href = "index.html" class = "navbar-brand">National Geographic</a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right">
+
+						<li class = "active"><a href = "index.html">Home</a></li>
+					<li><a href = "animals.html">Animals</a></li>
+					<li><a href = "environment.html">Environment</a></li>
+					<li class = "dropdown">
+						<a href = "traveling.html" class = "dropdown-toggle" data-toggle = "dropdown">Travel <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "nationalpark.html">National Parks</a></li>
+							<li><a href = "adventure.html">Adventure</a></li>
+							<li><a href = "familytrip.html">Family Trips</a></li>
+							</ul>
+					</li>	
+					<li><a href = "#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class = "container">
+		<div class = "row">
+			<div class = "col-lg-9">
+				<div class = "panel panel-default">
+					<div class = "panel-body">
+						<div class = "page-header">
+							<h3>Why Kids Need to Spend Time in Nature</h3>
+							<a href = "https://childmind.org/article/why-kids-need-to-spend-time-in-nature/" class = "btn btn-warning">Read the rest of the article here</a></center>
+						</div>
+						<img class = "featureImg" src = "family.jpg" width = "100%">
+						<p>In the early 1980s, a Harvard University biologist named Edward O. Wilson proposed a theory called biophilia: that humans are instinctively drawn towards their natural surroundings. Many 21st century parents, however, would question this theory, as they watch their kids express a clear preference for sitting on a couch in front of a screen over playing outside.</p>
+
+						<p>The national panic about kids spending too much time indoors has become so extreme that the crisis has a name: Nature deficit disorder.</p>
+
+						<p>While calling it a disorder might be merely rhetorical, it’s clear kids spend significantly more time inside than outside. This shift is largely due to technology: The average American child is said to spend 4 to 7 minutes a day in unstructured play outdoors, and over 7 hours a day in front of a screen.</p>
+
+						<p>Richard Louv, author of the book Last Child in the Woods: Saving Our Children From Nature-Deficit Disorder, tells the story of interviewing a child who told him that he liked playing indoors more than outdoors “’cause that’s where all the electrical outlets are.”</p> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "navbar navbar-default navbar-fixed-bottom">
+		<div class = "container">
+			<p class = "navbar-text pull-left">Site Built by Saayesha Jain</p>
+			<a href = "https://www.youtube.com/user/NationalGeographic" class = "navbar-btn btn-warning btn pull-right">Subscribe on Youtube</a>
+		</div>
+	</div>
+
+	<div class = "modal fade" id = "contact" role = "dialog">
+	<div class = "modal-dialog">
+		<div class = "modal-content">
+
+			<form class = "form-horizontal">
+
+			<div class = "modal-header">
+				<h4>Contact National Geographic</h4>
+			</div>
+			<div class = "modal-body">
+			
+			<div class = "form-group">
+
+				<Label for = "contact-name" class = "col-lg-2 control-label">Name:</Label>
+				<div class = "col-lg-10">
+					<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+				</div>
+					</div>
+
+			<div class = "form-group">
+
+				<Label for = "contact-email" class = "col-lg-2 control-label">Email:</Label>
+				<div class = "col-lg-10">
+					<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+				</div>
+					</div>
+
+			<div class = "form-group">
+
+				<Label for = "contact-msg" class = "col-lg-2 control-label">Message:</Label>
+				<div class = "col-lg-10">
+				
+					<textarea class = "form-control" rows = "8"></textarea>
+
+				 </div>
+
+			</div>
+			<div class = "modal-footer">
+				<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+				<button class = "btn btn-warning" type = "submit">Send</button>
+			</div>
+		</form>
+		</div>	
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

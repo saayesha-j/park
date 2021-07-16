@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>National Geographic</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+
+<body>
+
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			<a href = "index.html" class = "navbar-brand">National Geographic</a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right">
+
+					<li class = "active"><a href = "index.html">Home</a></li>
+					<li><a href = "test.html">Animals</a></li>
+					<li><a href = "environment.html">Environment</a></li>
+					<li class = "dropdown">
+						<a href = "traveling.html" class = "dropdown-toggle" data-toggle = "dropdown">Travel <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "nationalpark.html">National Parks</a></li>
+							<li><a href = "adventure.html">Adventure</a></li>
+							<li><a href = "familytrip.html">Family Trips</a></li>
+							</ul>
+					</li>	
+					<li><a href = "#contact" data-toggle = "modal">Contact Us</a></li>
+
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class = "container">
+		<div class = "jumbotron">
+			<center><h2>Environment</h2>
+			<h3>Hurricane categories don't tell the whole story</h3>
+			<img src = "hurricane.jpg" width = "800px" height = "400px">
+			<a href = "https://www.nationalgeographic.com/environment/article/hurricane-categories-do-not-tell-the-whole-story-see-what-matters"class = "btn btn-warning">Read Now!</a></center>
+		</div>
+	</div>
+
+	<div class = "container">
+		<div class = "row">
+				
+				<div class = "col-md-3">
+				<h3>5 ways you can keep the planet clean this summer</h3>
+				<a href = "https://www.nationalgeographic.com/magazine/article/5-ways-you-can-keep-the-planet-clean-this-summer" class = "btn btn-warning">Read Here</a></div>
+
+
+				<div class = "col-md-3">
+				<h3>5 ways you can keep the planet clean this summer</h3>
+				<a href = "https://www.nationalgeographic.com/magazine/article/5-ways-you-can-keep-the-planet-clean-this-summer" class = "btn btn-warning">Read Here</a></div>
+
+				<div class = "col-md-3">
+				<h3>Why 'tiny forests' are popping up in big cities</h3>
+				<a href = "https://www.nationalgeographic.com/environment/article/why-tiny-forests-are-popping-up-in-big-cities" class = "btn btn-warning">Read Here</a></div>
+
+
+				<div class = "col-md-3">
+				<h3>Miami condo collapse highlights urgent need to adapt to rising seas</h3>
+				<a href = "https://www.nationalgeographic.com/environment/article/miami-condo-collapse-highlights-urgent-need-to-adapt-to-rising-seas" class = "btn btn-warning">Read Here</a></div>
+		</div>
+	</div>
+
+	<div class = "navbar navbar-default navbar-fixed-bottom">
+		<div class = "container">
+			<p class = "navbar-text pull-left">Site Built by Saayesha Jain</p>
+			<a href = "https://www.youtube.com/user/NationalGeographic" class = "navbar-btn btn-warning btn pull-right">Subscribe on Youtube</a>
+		</div>
+	</div>
+
+	<div class = "modal fade" id = "contact" role = "dialog">
+	<div class = "modal-dialog">
+		<div class = "modal-content">
+
+			<form class = "form-horizontal">
+
+			<div class = "modal-header">
+				<h4>Contact National Geographic</h4>
+			</div>
+			<div class = "modal-body">
+			
+			<div class = "form-group">
+
+				<Label for = "contact-name" class = "col-lg-2 control-label">Name:</Label>
+				<div class = "col-lg-10">
+					<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+				</div>
+					</div>
+
+			<div class = "form-group">
+
+				<Label for = "contact-email" class = "col-lg-2 control-label">Email:</Label>
+				<div class = "col-lg-10">
+					<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+				</div>
+					</div>
+
+			<div class = "form-group">
+
+				<Label for = "contact-msg" class = "col-lg-2 control-label">Message:</Label>
+				<div class = "col-lg-10">
+				
+					<textarea class = "form-control" rows = "8"></textarea>
+
+				 </div>
+
+			</div>
+			<div class = "modal-footer">
+				<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+				<button class = "btn btn-warning" type = "submit">Send</button>
+			</div>
+		</form>
+		</div>	
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
